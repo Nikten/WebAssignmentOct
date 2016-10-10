@@ -13,13 +13,26 @@ namespace WebAssignmentOct.Controllers
         {
             return View();
         }
-
         public ActionResult About()
         {
             return View();
         }
 
         public ActionResult Contacts()
+        {
+            return View();
+        }
+        public ActionResult educatuation()
+        {
+            return View();
+        }
+
+        public ActionResult Exprience()
+        {
+            return View();
+        }
+
+        public ActionResult Knowlege()
         {
             return View();
         }

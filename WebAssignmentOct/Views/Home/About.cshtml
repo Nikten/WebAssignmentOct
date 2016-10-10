@@ -4,8 +4,23 @@
 }
 
 <h2>Om mig:</h2>
+<a class="btn btn-info" role="button" onclick="EducatuationText()">Educatuation</a>
+<a class="btn btn-info" role="button" onclick="ExprienceText()">Exprience</a>
+<a class="btn btn-info" role="button" onclick="KnowlegenText()">Knowlege</a>
 
-<a href="Index" class="btn btn-info" role="button">Home</a>
-<a href="About" class="btn btn-info" role="button">About</a>
-<a href="Contacts" class="btn btn-info" role="button">Contact</a>
+<div>
+    <br />
+    <p id="Text" style="font-size:150%">Hej</p>
+</div>
 
+<script>
+    function EducatuationText() {
+        document.getElementById("Text").innerHTML = "Jag har studerat på sjödals gymnasiumet och tekniska fjärde år på östra gymnasium.";
+    }
+    function ExprienceText() {
+        document.getElementById("Text").innerHTML = "Jag har programetar för cirka 5 år. Jag är väll värst men C# och kan använda JAVA.";
+    }
+    function KnowlegenText() {
+        document.getElementById("Text").innerHTML = "Jag kan duglikt mycket om C# och obejctorentering med det. Jag kan grudläggande funktioner i JAVA.";
+    }
+</script>
