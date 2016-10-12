@@ -8,6 +8,10 @@ namespace WebAssignmentOct.Controllers
 {
     public class HomeController : Controller
     {
+
+
+        WebDataBaseEntities MyInfo = new WebDataBaseEntities();
+
         // GET: Home
         public ActionResult Index()
         {
@@ -15,7 +19,7 @@ namespace WebAssignmentOct.Controllers
         }
         public ActionResult About()
         {
-            return View();
+            return View(MyInfo);
         }
 
         public ActionResult Contacts()
