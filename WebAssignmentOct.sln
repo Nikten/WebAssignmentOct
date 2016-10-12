@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssignmentOct", "WebAssignmentOct\WebAssignmentOct.csproj", "{4C7E95C0-73DB-4B10-AA50-F2575DAFADDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm prodject", "WinForm prodject\WinForm prodject.csproj", "{F996D384-587C-43E6-9A80-1BC11534A341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C7E95C0-73DB-4B10-AA50-F2575DAFADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7E95C0-73DB-4B10-AA50-F2575DAFADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7E95C0-73DB-4B10-AA50-F2575DAFADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F996D384-587C-43E6-9A80-1BC11534A341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F996D384-587C-43E6-9A80-1BC11534A341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F996D384-587C-43E6-9A80-1BC11534A341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F996D384-587C-43E6-9A80-1BC11534A341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
