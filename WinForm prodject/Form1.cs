@@ -12,16 +12,46 @@ namespace WinForm_prodject
 {
     public partial class Form1 : Form
     {
-        WebDataBaseEntities MyEduaction = new WebDataBaseEntities();
+        WebDataBaseEntities4 MyInfo = new WebDataBaseEntities4();
         public Form1()
         {
             InitializeComponent();
-            foreach (var item in MyEduaction.Educations)
+            foreach (var item in MyInfo.Infoes)
             {
                 listBox1.Items.Add(item);
-                listBox1.DisplayMember = "HaveStudiedOn";
             }
+            listBox1.DisplayMember = "HaveStudiedOn";
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            foreach (var item in MyInfo.Infoes)
+            {
+                listBox1.Items.Add(item);
+            }
+            listBox1.DisplayMember = "HaveStudiedOn";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            foreach (var item in MyInfo.Infoes)
+            {
+                listBox1.Items.Add(item);
+            }
+            listBox1.DisplayMember = "Expirience";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            foreach (var item in MyInfo.Infoes)
+            {
+                listBox1.Items.Add(item);
+            }
+            listBox1.DisplayMember = "Knowlege";
+        }
     }
 }

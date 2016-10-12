@@ -13,10 +13,10 @@ namespace WinForm_prodject
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WebDataBaseEntities : DbContext
+    public partial class WebDataBaseEntities4 : DbContext
     {
-        public WebDataBaseEntities()
-            : base("name=WebDataBaseEntities")
+        public WebDataBaseEntities4()
+            : base("name=WebDataBaseEntities4")
         {
         }
     
@@ -25,6 +25,6 @@ namespace WinForm_prodject
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Education> Educations { get; set; }
+        public virtual DbSet<Info> Infoes { get; set; }
     }
 }

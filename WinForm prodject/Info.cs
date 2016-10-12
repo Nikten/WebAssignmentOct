@@ -12,9 +12,11 @@ namespace WinForm_prodject
     using System;
     using System.Collections.Generic;
     
-    public partial class Education
+    public partial class Info
     {
         public int Id { get; set; }
         public string HaveStudiedOn { get; set; }
+        public string Expirience { get; set; }
+        public string Knowlege { get; set; }
     }
 }
