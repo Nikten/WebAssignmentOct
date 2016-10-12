@@ -53,5 +53,40 @@ namespace WinForm_prodject
             }
             listBox1.DisplayMember = "Knowlege";
         }
+        
+
+        //Varibels with "S_" befroe it are string. this is so not to confuse simmarly named varibles.
+        private void BtnAddEducation_Click(object sender, EventArgs e)
+        {
+            string S_Education = tbxEducation.Text;
+
+            Info MyNewInfo = new Info() { HaveStudiedOn = S_Education };
+
+            MyInfo.Infoes.Add(MyNewInfo);
+
+            MyInfo.SaveChanges();
+        }
+
+        private void btnAddExperience_Click(object sender, EventArgs e)
+        {
+            string S_Experisence = tbxExperience.Text;
+
+            Info MyNewInfo = new Info() { Expirience = S_Experisence };
+
+            MyInfo.Infoes.Add(MyNewInfo);
+
+            MyInfo.SaveChanges();
+        }
+
+        private void BtnAddKnowlege_Click(object sender, EventArgs e)
+        {
+            string S_Knowlege = tbxKnowlege.Text;
+
+            Info MyNewInfo = new Info() { Knowlege = S_Knowlege };
+
+            MyInfo.Infoes.Add(MyNewInfo);
+
+            MyInfo.SaveChanges();
+        }
     }
 }

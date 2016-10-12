@@ -107,6 +107,7 @@
             this.BtnAddEducation.TabIndex = 7;
             this.BtnAddEducation.Text = "lägg till Sudie plats";
             this.BtnAddEducation.UseVisualStyleBackColor = true;
+            this.BtnAddEducation.Click += new System.EventHandler(this.BtnAddEducation_Click);
             // 
             // btnAddExperience
             // 
@@ -116,6 +117,7 @@
             this.btnAddExperience.TabIndex = 8;
             this.btnAddExperience.Text = "lägg till erfarenheter";
             this.btnAddExperience.UseVisualStyleBackColor = true;
+            this.btnAddExperience.Click += new System.EventHandler(this.btnAddExperience_Click);
             // 
             // BtnAddKnowlege
             // 
@@ -125,6 +127,7 @@
             this.BtnAddKnowlege.TabIndex = 9;
             this.BtnAddKnowlege.Text = "lägg till IT-kunskaper";
             this.BtnAddKnowlege.UseVisualStyleBackColor = true;
+            this.BtnAddKnowlege.Click += new System.EventHandler(this.BtnAddKnowlege_Click);
             // 
             // Form1
             // 
