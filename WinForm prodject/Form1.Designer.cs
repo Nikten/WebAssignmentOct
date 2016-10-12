@@ -28,86 +28,119 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEducation = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.tbxEducation = new System.Windows.Forms.TextBox();
+            this.tbxExperience = new System.Windows.Forms.TextBox();
+            this.tbxKnowlege = new System.Windows.Forms.TextBox();
+            this.BtnExperience = new System.Windows.Forms.Button();
+            this.BtnKnowlege = new System.Windows.Forms.Button();
+            this.BtnAddEducation = new System.Windows.Forms.Button();
+            this.btnAddExperience = new System.Windows.Forms.Button();
+            this.BtnAddKnowlege = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnEducation
             // 
-            this.button1.Location = new System.Drawing.Point(12, 226);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEducation.Location = new System.Drawing.Point(12, 12);
+            this.btnEducation.Name = "btnEducation";
+            this.btnEducation.Size = new System.Drawing.Size(75, 23);
+            this.btnEducation.TabIndex = 0;
+            this.btnEducation.Text = "Visa studier";
+            this.btnEducation.UseVisualStyleBackColor = true;
+            this.btnEducation.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(47, 23);
+            this.listBox1.Location = new System.Drawing.Point(12, 40);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(237, 186);
             this.listBox1.TabIndex = 1;
             // 
-            // textBox1
+            // tbxEducation
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbxEducation.Location = new System.Drawing.Point(12, 261);
+            this.tbxEducation.Name = "tbxEducation";
+            this.tbxEducation.Size = new System.Drawing.Size(100, 20);
+            this.tbxEducation.TabIndex = 2;
             // 
-            // textBox2
+            // tbxExperience
             // 
-            this.textBox2.Location = new System.Drawing.Point(47, 168);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.tbxExperience.Location = new System.Drawing.Point(12, 305);
+            this.tbxExperience.Name = "tbxExperience";
+            this.tbxExperience.Size = new System.Drawing.Size(100, 20);
+            this.tbxExperience.TabIndex = 3;
             // 
-            // textBox3
+            // tbxKnowlege
             // 
-            this.textBox3.Location = new System.Drawing.Point(47, 195);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 4;
+            this.tbxKnowlege.Location = new System.Drawing.Point(12, 350);
+            this.tbxKnowlege.Name = "tbxKnowlege";
+            this.tbxKnowlege.Size = new System.Drawing.Size(100, 20);
+            this.tbxKnowlege.TabIndex = 4;
             // 
-            // button2
+            // BtnExperience
             // 
-            this.button2.Location = new System.Drawing.Point(92, 226);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnExperience.Location = new System.Drawing.Point(93, 12);
+            this.BtnExperience.Name = "BtnExperience";
+            this.BtnExperience.Size = new System.Drawing.Size(75, 23);
+            this.BtnExperience.TabIndex = 5;
+            this.BtnExperience.Text = "erfatenheter";
+            this.BtnExperience.UseVisualStyleBackColor = true;
+            this.BtnExperience.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // BtnKnowlege
             // 
-            this.button3.Location = new System.Drawing.Point(173, 226);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BtnKnowlege.Location = new System.Drawing.Point(174, 12);
+            this.BtnKnowlege.Name = "BtnKnowlege";
+            this.BtnKnowlege.Size = new System.Drawing.Size(75, 23);
+            this.BtnKnowlege.TabIndex = 6;
+            this.BtnKnowlege.Text = "IT-kunskaper";
+            this.BtnKnowlege.UseVisualStyleBackColor = true;
+            this.BtnKnowlege.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // BtnAddEducation
+            // 
+            this.BtnAddEducation.Location = new System.Drawing.Point(156, 252);
+            this.BtnAddEducation.Name = "BtnAddEducation";
+            this.BtnAddEducation.Size = new System.Drawing.Size(93, 37);
+            this.BtnAddEducation.TabIndex = 7;
+            this.BtnAddEducation.Text = "lägg till Sudie plats";
+            this.BtnAddEducation.UseVisualStyleBackColor = true;
+            // 
+            // btnAddExperience
+            // 
+            this.btnAddExperience.Location = new System.Drawing.Point(156, 295);
+            this.btnAddExperience.Name = "btnAddExperience";
+            this.btnAddExperience.Size = new System.Drawing.Size(93, 39);
+            this.btnAddExperience.TabIndex = 8;
+            this.btnAddExperience.Text = "lägg till erfarenheter";
+            this.btnAddExperience.UseVisualStyleBackColor = true;
+            // 
+            // BtnAddKnowlege
+            // 
+            this.BtnAddKnowlege.Location = new System.Drawing.Point(156, 341);
+            this.BtnAddKnowlege.Name = "BtnAddKnowlege";
+            this.BtnAddKnowlege.Size = new System.Drawing.Size(93, 37);
+            this.BtnAddKnowlege.TabIndex = 9;
+            this.BtnAddKnowlege.Text = "lägg till IT-kunskaper";
+            this.BtnAddKnowlege.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(266, 395);
+            this.Controls.Add(this.BtnAddKnowlege);
+            this.Controls.Add(this.btnAddExperience);
+            this.Controls.Add(this.BtnAddEducation);
+            this.Controls.Add(this.BtnKnowlege);
+            this.Controls.Add(this.BtnExperience);
+            this.Controls.Add(this.tbxKnowlege);
+            this.Controls.Add(this.tbxExperience);
+            this.Controls.Add(this.tbxEducation);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEducation);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -117,13 +150,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEducation;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox tbxEducation;
+        private System.Windows.Forms.TextBox tbxExperience;
+        private System.Windows.Forms.TextBox tbxKnowlege;
+        private System.Windows.Forms.Button BtnExperience;
+        private System.Windows.Forms.Button BtnKnowlege;
+        private System.Windows.Forms.Button BtnAddEducation;
+        private System.Windows.Forms.Button btnAddExperience;
+        private System.Windows.Forms.Button BtnAddKnowlege;
     }
 }
 
